@@ -87,7 +87,7 @@ class SlackPoster
 
   def festive_season?
     this_year = today.year
-    return true if today <= Date.new(this_year, 12, 31) && today >= Date.new(this_year,12,1)
+    return true if today <= Date.new(this_year, 12, 31) && today >= Date.new(this_year,11,29)
     today == Date.new(this_year, 01, 01)
   end
 
