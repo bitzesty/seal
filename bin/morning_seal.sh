@@ -1,11 +1,13 @@
 #!/bin/bash
 
-teams=(core-formats
+teams=(content-tools
+       core-formats
        publishing-platform
        specialist-publisher
        finding-things
        custom
        govuk-infrastructure
+       mainstream-pop-up
        servicemanual)
 
 for team in ${teams[*]}; do
